@@ -1,13 +1,13 @@
 
 
-#Image:
+# Image:
  docker build -t node-rest-api .
  
-#Run: 
+# Run: 
 docker run -it -p 3080:3070 --name=nodeapi node-rest-api
 
-#Output :
+# Output :
 http://localhost:3080/users
 
-#Interact with container :
+# Interact with container :
 docker exec -it nodeapi bash
